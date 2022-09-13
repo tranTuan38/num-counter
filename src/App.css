@@ -1,0 +1,44 @@
+.wrapper {
+    padding: 32px;
+}
+
+.context {
+}
+
+.context-item {
+    display: flex;
+}
+
+.context-item + .context-item {
+    margin-top: 35px;
+}
+
+.context-item span{
+    display: inline-block;
+    min-width: 125px;
+}
+
+
+.textarea {
+    width: 270px;
+    min-height: 150px;
+    max-width: 275px;
+}
+
+.input {
+    width: 32px;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-left: 125px;
+}
+
+.result {
+    display: flex;
+    margin: 36px 0;
+}
+
+.result-item {
+    margin-left: 66px;
+}
